@@ -45,13 +45,17 @@ body::before {
     gap: 25px;
 }
 
-.selecao-de-personagens .personagem .titulo {
+.selecao-de-personagens .personagens .titulo {
     font-size: 20px;
     letter-spacing: 4px;
     text-transform: uppercase;
     border-bottom: 2px solid #47f4ff;
     width: 100%;
     text-align: center;
+}
+
+.lista-de-personagens .personagem {
+    border-bottom: 4px solid #47f4ff;
 }
 
 .lista-de-personagens .personagem img {/*Reforçando que o ideal é criar classes para as img e não usar a tag diretamente assim*/
